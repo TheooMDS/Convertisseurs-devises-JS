@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de Devises</title>
+    <link rel="stylesheet" href="convertisseur.css">
+</head>
+
+<body>
+    <h2>Convertisseur de Devises</h2>
+    <select id="deviseDepart">
+        <option value="USD">USD - Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - Livre Sterling</option>
+        <option value="JPY">JPY - Yen Japonais</option>
+        <option value="MXN">MXN - Peso Mexicain</option>
+        <option value="LBP">LBP - Livre Libanaise</option>
+        <option value="CAD">CAD - Dollar Canadien</option>
+    </select>
+    <select id="deviseArrivee">
+        <option value="USD">USD - Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - Livre Sterling</option>
+        <option value="JPY">JPY - Yen Japonais</option>
+        <option value="MXN">MXN - Peso Mexicain</option>
+        <option value="LBP">LBP - Livre Libanaise</option>
+        <option value="CAD">CAD - Dollar Canadien</option>
+    </select>
+    <br>
+    <input type="number" id="montant" placeholder="Montant" min="0">
+    <input type="number" id="montantConverti" placeholder="Résultat" readonly>
+    <br>
+    <button id="convertButton">Convertir</button>
+    <script src="convertisseur.js"></script>
+</body>
+</html>
